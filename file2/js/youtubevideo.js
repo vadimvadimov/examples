@@ -69,11 +69,11 @@ window.addEventListener('resize', vidRescale, false);
 document.querySelector('#mute').addEventListener('click', function(){
   if( document.querySelector('#mute').title == 'Включить звук' ){
     tv.unMute();
-    document.querySelector('#mute').style.backgroundImage = "url('/img/vol_up.svg')";
+    document.querySelector('#mute').style.backgroundImage = "url('/examples/file2/img/vol_up.svg')";
     document.querySelector('#mute').title = 'Выключить звук';
   } else {
     tv.mute();
-    document.querySelector('#mute').style.backgroundImage = "url('/img/vol_mute.svg')";
+    document.querySelector('#mute').style.backgroundImage = "url('/examples/file2/img/vol_mute.svg')";
     document.querySelector('#mute').title = 'Включить звук';
   }
 
